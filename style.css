@@ -1,0 +1,78 @@
+/***
+ *        /$$$$$           /$$ /$$                            /$$             /$$      /$$                  
+ *       |__  $$          | $$| $$                           | $$            | $$$    /$$$                
+ *          | $$  /$$$$$$ | $$| $$$$$$$   /$$$$$$   /$$$$$$  | $$   /$$      | $$$$  /$$$$  /$$$$$$       
+ *          | $$ /$$__  $$| $$| $$__  $$ /$$__  $$ /$$__  $$ | $$  /$$/      | $$ $$/$$ $$ /$$__  $$    
+ *     /$$  | $$| $$$$$$$$| $$| $$  \ $$| $$  \__/| $$$$$$$$ | $$$$$$/       | $$  $$$| $$| $$$$$$$$     
+ *    | $$  | $$| $$_____/| $$| $$  | $$| $$      | $$_____/ | $$_  $$       | $$\  $ | $$| $$_____/    
+ *    |  $$$$$$/|  $$$$$$$| $$| $$$$$$$/| $$      |  $$$$$$$|| $$ \  $$      | $$ \/  | $$|  $$$$$$$      
+ *     \______/  \_______/|__/|_______/ |__/       \_______/ |__/  \__/      |__/     |__/ \_______/    
+ *                                                                                                                                                   
+ *    UI Design by Sem Voigtländer      
+ *     Modified *insert Fake Jelbrek team here* 
+ *                                                                                                                                                   
+ */
+
+* {
+	font-family: Sfnstext, Helvetica Neue, Sans Serif;
+	font-size: 36px;
+}
+
+ body, html {
+ 	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4RUieTItxik2c5fvx/simple-animated-geometric-background-with-squares-4k-ultra-high-definition-video-loop_hzhlwak8x_thumbnail-full01.png");
+ 	margin: 0;
+ 	padding: 0;
+ 	font-size: 16px;
+ 	width: 100%;
+ 	height: 100%;
+ 	color: white;
+ }
+
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+main {
+	width: 100%;
+	text-align: center;
+	padding-top: 25%;
+}
+
+.start {
+	position: absolute;
+    left: 20%; 
+	right: 20%; 
+	top: 75%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-width: 60px;
+	max-width: 190%;
+	background: rgba(0, 96, 12, 0.3);
+}
+
+.start, .start * {
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px !important;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	box-decoration-break: slice;
+}
+
+footer {
+	padding-top: 25%;
+	text-align: center;
+}
